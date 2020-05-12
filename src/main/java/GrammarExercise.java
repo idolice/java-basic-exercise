@@ -1,15 +1,13 @@
 import java.util.List;
-import java.util.Scanner;
 
 public class GrammarExercise {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("请输入第一串单词串：");
-        String firstWordList = scanner.next();
-        System.out.print("请输入第二串单词串：");
-        String secondWordList = scanner.next();
+        //需要从命令行读入
+        String firstWordList = "";
+        String secondWordList = "";
 
         List<String> result = findCommonWordsWithSpace(firstWordList,secondWordList);
+        //按要求输出到命令行
 
     }
 
